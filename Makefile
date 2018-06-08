@@ -38,3 +38,7 @@ TARGET = $(O_FOLDER)$(name).o
 
 $(foreach name, $(SRC_NAMES), \
 	$(eval $(MAKE_CPP)))
+
+
+run:
+						./$(EXE_NAME)

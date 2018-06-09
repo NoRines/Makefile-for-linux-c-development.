@@ -40,5 +40,5 @@ $(foreach name, $(SRC_NAMES), \
 	$(eval $(MAKE_CPP)))
 
 
-run:
+run:					$(EXE_NAME)
 						./$(EXE_NAME)
